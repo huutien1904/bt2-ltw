@@ -1,0 +1,33 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --primary-color: #0f9d58;
+  --backgound-color: #f0f3f7;
+  --secon-color: #9da2ad;
+  --grey: #7a7a7a;
+  --white: #ffffff;
+}
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+.navbar-default{
+  padding: 15px;
+  background-color: var(--backgound-color);
+}
+.navbar-brand{
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--primary-color) !important;
+}
+.navbar-right li a{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px ;
+}
+.navbar-right li a:hover{
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
